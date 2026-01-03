@@ -1,0 +1,24 @@
+{
+  "profile": "Florent",
+  "role": "adc",
+  "champions": [
+    {
+      "id": 163,
+      "howGoodIAm": 7,
+      "colors": ["white", "blue"],
+      "synergy": [3, 4],
+      "counters": [5, 7],
+      "meta": 10,
+      "strongInto": [6, 7]
+    },
+    {
+      "id": 11,
+      "howGoodIAm": 10,
+      "colors": ["red", "blue"],
+      "synergy": [3, 4],
+      "counters": [5, 7],
+      "meta": 10,
+      "strongInto": [6, 7]
+    }
+  ]
+}

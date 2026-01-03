@@ -1,0 +1,24 @@
+{
+  "profile": "Ivan",
+  "role": "mid",
+  "champions": [
+    {
+      "id": 170,
+      "howGoodIAm": 9,
+      "colors": ["green", "white"],
+      "synergy": [3, 4],
+      "counters": [5, 7],
+      "meta": 10,
+      "strongInto": [6, 7]
+    },
+    {
+      "id": 87,
+      "howGoodIAm": 6,
+      "colors": ["blue", "white"],
+      "synergy": [3, 4],
+      "counters": [5, 7],
+      "meta": 10,
+      "strongInto": [6, 7]
+    }
+  ]
+}

@@ -3,9 +3,18 @@
   "role": "top",
   "champions": [
     {
-      "id": 1,
-      "howGoodIAm": 7,
-      "colors": ["blue", "white"],
+      "id": 34,
+      "howGoodIAm": 8,
+      "colors": ["blue", "black"],
+      "synergy": [3, 4],
+      "counters": [5, 7],
+      "meta": 10,
+      "strongInto": [6, 7]
+    },
+    {
+      "id": 39,
+      "howGoodIAm": 8,
+      "colors": ["red", "black"],
       "synergy": [3, 4],
       "counters": [5, 7],
       "meta": 10,

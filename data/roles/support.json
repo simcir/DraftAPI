@@ -1,0 +1,24 @@
+{
+  "profile": "Lenny",
+  "role": "support",
+  "champions": [
+    {
+      "id": 101,
+      "howGoodIAm": 7,
+      "colors": ["blue", "red"],
+      "synergy": [3, 4],
+      "counters": [5, 7],
+      "meta": 10,
+      "strongInto": [6, 7]
+    },
+    {
+      "id": 138,
+      "howGoodIAm": 7,
+      "colors": ["blue", "black"],
+      "synergy": [3, 4],
+      "counters": [5, 7],
+      "meta": 10,
+      "strongInto": [6, 7]
+    }
+  ]
+}
