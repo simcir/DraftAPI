@@ -5,20 +5,149 @@
     {
       "id": 170,
       "howGoodIAm": 9,
-      "colors": ["green", "white"],
-      "synergy": [3, 4],
-      "counters": [5, 7],
-      "meta": 10,
-      "strongInto": [6, 7]
+      "colors": [
+        "green",
+        "white"
+      ],
+      "synergy": [
+        43,
+        159,
+        155
+      ],
+      "counters": [
+        167,
+        3,
+        4
+      ],
+      "strongInto": [
+        114,
+        98,
+        46
+      ],
+      "meta": 10
     },
     {
       "id": 87,
       "howGoodIAm": 6,
-      "colors": ["blue", "white"],
-      "synergy": [3, 4],
-      "counters": [5, 7],
-      "meta": 10,
-      "strongInto": [6, 7]
+      "colors": [
+        "blue",
+        "white"
+      ],
+      "synergy": [
+        16,
+        42,
+        52
+      ],
+      "counters": [
+        8,
+        36,
+        62,
+        88
+      ],
+      "strongInto": [
+        161,
+        82,
+        37
+      ],
+      "meta": 10
+    },
+    {
+      "id": 8,
+      "howGoodIAm": 7,
+      "colors": [
+        "blue",
+        "white"
+      ],
+      "synergy": [
+        66,
+        107,
+        1
+      ],
+      "counters": [
+        150,
+        12,
+        36
+      ],
+      "strongInto": [
+        114,
+        74,
+        82
+      ],
+      "meta": 10
+    },
+    {
+      "id": 79,
+      "howGoodIAm": 8,
+      "colors": [
+        "black",
+        "blue"
+      ],
+      "synergy": [
+        43,
+        52,
+        27
+      ],
+      "counters": [
+        124,
+        62,
+        130
+      ],
+      "strongInto": [
+        154,
+        114,
+        70
+      ],
+      "meta": 10
+    },
+    {
+      "id": 142,
+      "howGoodIAm": 6,
+      "colors": [
+        "red",
+        "blue"
+      ],
+      "synergy": [
+        53,
+        107,
+        42
+      ],
+      "counters": [
+        130,
+        60,
+        103
+      ],
+      "strongInto": [
+        130,
+        60,
+        14,
+        37,
+        3
+      ],
+      "meta": 10
+    },
+    {
+      "id": 148,
+      "howGoodIAm": 8,
+      "colors": [
+        "green",
+        "blue"
+      ],
+      "synergy": [
+        140,
+        159
+      ],
+      "counters": [
+        61,
+        87,
+        167,
+        158
+      ],
+      "strongInto": [
+        14,
+        127,
+        161
+      ],
+      "meta": 10
     }
   ]
 }

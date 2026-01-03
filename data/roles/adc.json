@@ -5,20 +5,192 @@
     {
       "id": 163,
       "howGoodIAm": 7,
-      "colors": ["white", "blue"],
-      "synergy": [3, 4],
-      "counters": [5, 7],
-      "meta": 10,
-      "strongInto": [6, 7]
+      "colors": [
+        "white",
+        "blue"
+      ],
+      "synergy": [
+        19,
+        129,
+        101
+      ],
+      "counters": [
+        68,
+        11,
+        147
+      ],
+      "strongInto": [
+        57,
+        33,
+        25
+      ],
+      "meta": 10
     },
     {
       "id": 11,
       "howGoodIAm": 10,
-      "colors": ["red", "blue"],
-      "synergy": [3, 4],
-      "counters": [5, 7],
-      "meta": 10,
-      "strongInto": [6, 7]
+      "colors": [
+        "red",
+        "blue"
+      ],
+      "synergy": [
+        129,
+        19,
+        128
+      ],
+      "counters": [
+        68,
+        94,
+        84
+      ],
+      "strongInto": [
+        163,
+        57,
+        125
+      ],
+      "meta": 10
+    },
+    {
+      "id": 10,
+      "howGoodIAm": 5,
+      "colors": [
+        "white",
+        "green"
+      ],
+      "synergy": [
+        19,
+        138
+      ],
+      "counters": [
+        84,
+        11
+      ],
+      "strongInto": [
+        168,
+        56,
+        163
+      ],
+      "meta": 10
+    },
+    {
+      "id": 56,
+      "howGoodIAm": 8,
+      "colors": [
+        "green",
+        "red"
+      ],
+      "synergy": [
+        129,
+        91,
+        101
+      ],
+      "counters": [
+        10,
+        84,
+        55
+      ],
+      "strongInto": [
+        146,
+        163,
+        33
+      ],
+      "meta": 10
+    },
+    {
+      "id": 127,
+      "howGoodIAm": 8,
+      "colors": [
+        "green",
+        "black"
+      ],
+      "synergy": [
+        101,
+        19
+      ],
+      "counters": [
+        82,
+        160,
+        139
+      ],
+      "strongInto": [
+        157,
+        21
+      ],
+      "meta": 10
+    },
+    {
+      "id": 115,
+      "howGoodIAm": 6,
+      "colors": [
+        "black",
+        "red"
+      ],
+      "synergy": [
+        91,
+        80
+      ],
+      "counters": [
+        94,
+        55,
+        130
+      ],
+      "strongInto": [
+        146,
+        56,
+        163
+      ],
+      "meta": 10
+    },
+    {
+      "id": 33,
+      "howGoodIAm": 5,
+      "colors": [
+        "blue",
+        "red"
+      ],
+      "synergy": [
+        89,
+        172,
+        101
+      ],
+      "counters": [
+        130,
+        68,
+        147,
+        11
+      ],
+      "strongInto": [
+        25,
+        21,
+        168
+      ],
+      "meta": 10
+    },
+    {
+      "id": 160,
+      "howGoodIAm": 4,
+      "colors": [
+        "red",
+        "green"
+      ],
+      "synergy": [
+        102,
+        5,
+        41,
+        27
+      ],
+      "counters": [
+        94,
+        147,
+        28
+      ],
+      "strongInto": [
+        11,
+        125,
+        21,
+        54
+      ],
+      "meta": 10
     }
   ]
 }

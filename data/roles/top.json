@@ -5,20 +5,195 @@
     {
       "id": 34,
       "howGoodIAm": 8,
-      "colors": ["blue", "black"],
-      "synergy": [3, 4],
-      "counters": [5, 7],
-      "meta": 10,
-      "strongInto": [6, 7]
+      "colors": [
+        "blue",
+        "black"
+      ],
+      "synergy": [
+        88,
+        95,
+        85
+      ],
+      "counters": [
+        1,
+        112,
+        162
+      ],
+      "strongInto": [
+        6,
+        40,
+        113
+      ],
+      "meta": 10
     },
     {
       "id": 39,
       "howGoodIAm": 8,
-      "colors": ["red", "black"],
-      "synergy": [3, 4],
-      "counters": [5, 7],
-      "meta": 10,
-      "strongInto": [6, 7]
+      "colors": [
+        "red",
+        "black"
+      ],
+      "synergy": [
+        52,
+        49,
+        107
+      ],
+      "counters": [
+        62,
+        104,
+        147,
+        22
+      ],
+      "strongInto": [
+        165,
+        48,
+        69,
+        52
+      ],
+      "meta": 10
+    },
+    {
+      "id": 123,
+      "howGoodIAm": 10,
+      "colors": [
+        "blue",
+        "black"
+      ],
+      "synergy": [
+        140,
+        53,
+        1
+      ],
+      "counters": [
+        62,
+        137,
+        147
+      ],
+      "strongInto": [
+        124,
+        78,
+        99
+      ],
+      "meta": 10
+    },
+    {
+      "id": 130,
+      "howGoodIAm": 8,
+      "colors": [
+        "red",
+        "blue"
+      ],
+      "synergy": [
+        107,
+        159,
+        52
+      ],
+      "counters": [
+        131,
+        67,
+        43
+      ],
+      "strongInto": [
+        78,
+        119,
+        90
+      ],
+      "meta": 10
+    },
+    {
+      "id": 24,
+      "howGoodIAm": 8,
+      "colors": [
+        "blue",
+        "black"
+      ],
+      "synergy": [
+        172,
+        101,
+        138
+      ],
+      "counters": [
+        147,
+        29,
+        43
+      ],
+      "strongInto": [
+        100,
+        53,
+        131,
+        39
+      ],
+      "meta": 10
+    },
+    {
+      "id": 86,
+      "howGoodIAm": 7,
+      "colors": [
+        "black",
+        "blue"
+      ],
+      "synergy": [
+        140,
+        107
+      ],
+      "counters": [
+        123,
+        147,
+        97
+      ],
+      "strongInto": [
+        110,
+        22,
+        47
+      ],
+      "meta": 10
+    },
+    {
+      "id": 121,
+      "howGoodIAm": 7,
+      "colors": [
+        "white",
+        "blue"
+      ],
+      "synergy": [
+        43,
+        159
+      ],
+      "counters": [
+        130,
+        123,
+        119
+      ],
+      "strongInto": [
+        99,
+        22,
+        110
+      ],
+      "meta": 10
+    },
+    {
+      "id": 114,
+      "howGoodIAm": 8,
+      "colors": [
+        "green",
+        "black"
+      ],
+      "synergy": [
+        107,
+        155,
+        27
+      ],
+      "counters": [
+        124,
+        48,
+        162
+      ],
+      "strongInto": [
+        47,
+        141,
+        41
+      ],
+      "meta": 10
     }
   ]
 }
