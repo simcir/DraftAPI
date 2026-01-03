@@ -17,3 +17,10 @@ class RoleProfileOut(BaseModel):
 
 class RoleProfileUpdateIn(RoleProfileOut):
     pass
+
+
+class ProfileEntryPayload(BaseModel):
+    profileName: str
+    role: str
+    entry: ProfileChampion
+
