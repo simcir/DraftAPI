@@ -1,0 +1,10 @@
+{
+  "weights": {
+    "howGoodIAm": 1.0,
+    "meta": 0.6,
+    "synergy": 1.2,
+    "counters": 1.3,
+    "strongInto": 1.1,
+    "colorFit": 0.8
+  }
+}

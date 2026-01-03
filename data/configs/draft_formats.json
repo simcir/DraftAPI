@@ -1,0 +1,31 @@
+{
+  "flex": {
+    "phases": [
+      { "type": "ban",  "side": "blue", "count": 5 },
+      { "type": "ban",  "side": "red",  "count": 5 },
+
+      { "type": "pick", "side": "blue", "count": 1 },
+      { "type": "pick", "side": "red",  "count": 2 },
+      { "type": "pick", "side": "blue", "count": 2 },
+      { "type": "pick", "side": "red",  "count": 2 },
+      { "type": "pick", "side": "blue", "count": 2 },
+      { "type": "pick", "side": "red",  "count": 1 }
+    ]
+  },
+
+  "tournament": {
+    "phases": [
+      { "type": "ban",  "side": "blue", "count": 3 },
+      { "type": "ban",  "side": "red",  "count": 3 },
+      { "type": "pick", "side": "blue", "count": 1 },
+      { "type": "pick", "side": "red",  "count": 2 },
+      { "type": "pick", "side": "blue", "count": 2 },
+      { "type": "pick", "side": "red",  "count": 1 },
+      { "type": "ban",  "side": "blue", "count": 2 },
+      { "type": "ban",  "side": "red",  "count": 2 },
+      { "type": "pick", "side": "red",  "count": 1 },
+      { "type": "pick", "side": "blue", "count": 2 },
+      { "type": "pick", "side": "red",  "count": 1 }
+    ]
+  }
+}

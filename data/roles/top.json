@@ -1,0 +1,15 @@
+{
+  "profile": "Loan",
+  "role": "top",
+  "champions": [
+    {
+      "id": 1,
+      "howGoodIAm": 7,
+      "colors": ["blue", "white"],
+      "synergy": [3, 4],
+      "counters": [5, 7],
+      "meta": 10,
+      "strongInto": [6, 7]
+    }
+  ]
+}

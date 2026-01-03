@@ -1,0 +1,55 @@
+{
+  "blue": {
+    "description": "Controle + Poke + Disengage",
+    "modifiers": {
+      "base": 1.0,
+      "synergyMultiplier": 1.0,
+      "counterMultiplier": 1.0,
+      "strongIntoMultiplier": 1.0,
+      "teamColorBonus": 0.0
+    }
+  },
+   "red": {
+    "description": "Engage + Lane Bully",
+    "modifiers": {
+      "base": 1.0,
+      "synergyMultiplier": 1.0,
+      "counterMultiplier": 1.0,
+      "strongIntoMultiplier": 1.7,
+      "teamColorBonus": 0.0
+    }
+  },
+   "black": {
+    "description": "Assassin + Splitpush (1 to 1 champions)",
+    "modifiers": {
+      "base": 1.0,
+      "synergyMultiplier": 1.0,
+      "counterMultiplier": 1.0,
+      "strongIntoMultiplier": 1.0,
+      "teamColorBonus": 0.0
+    }
+  },
+  "white": {
+    "description": "Shield + Front to back",
+    "modifiers": {
+      "base": 1.0,
+      "synergyMultiplier": 1.0,
+      "counterMultiplier": 1.0,
+      "strongIntoMultiplier": 1.0,
+      "teamColorBonus": 2.0,
+      "conditions": [
+        { "if": "team_has_same_color", "color": "white", "min": 1, "bonus": 2.0 }
+      ]
+    }
+  },
+  "green": {
+    "description": "Scaling champions + high ressources champions",
+    "modifiers": {
+      "base": 1.0,
+      "synergyMultiplier": 1.0,
+      "counterMultiplier": 1.7,
+      "strongIntoMultiplier": 1.7,
+      "teamColorBonus": 0.0
+    }
+  }
+}
