@@ -22,7 +22,7 @@ def build_recommendations(payload: DraftRecommendationRequest, loader: DataLoade
 
     role_index_our = _build_role_index(loader)
     role_index_enemy = _build_enemy_role_index(champions)
-    locked_our_roles = _locked_roles(our_picks, role_index_our)
+    locked_our_roles = _locked_roles(our_picks, role_index_our, role_index_enemy)
     locked_enemy_roles = _locked_roles(enemy_picks, role_index_enemy)
     scoring_weights = _load_scoring_weights(loader)
     enemy_role_weights = _enemy_role_weights(
@@ -206,13 +206,19 @@ def _matching_count(reference_ids: Iterable[int], target_ids: Set[int]) -> int:
             count += 1
     return count
 
-def _locked_roles(pick_ids: Set[int], role_index: Dict[int, Set[str]]) -> Set[str]:
-    if not pick_ids or not role_index:
+def _locked_roles(
+    pick_ids: Set[int],
+    role_index: Dict[int, Set[str]],
+    fallback_role_index: Dict[int, Set[str]] | None = None,
+) -> Set[str]:
+    if not pick_ids:
         return set()
     locked: Set[str] = set()
     duo_role_counts: Dict[Tuple[str, str], int] = {}
     for champ_id in pick_ids:
         roles = sorted(role_index.get(champ_id, []))
+        if not roles and fallback_role_index is not None:
+            roles = sorted(fallback_role_index.get(champ_id, []))
         if len(roles) == 1:
             locked.add(roles[0])
             continue
