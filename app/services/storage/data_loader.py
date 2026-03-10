@@ -12,3 +12,9 @@ class DataLoader:
 
     def draft_formats(self):
         return self.repo.read("configs/draft_formats.json")
+
+    def scoring_weights(self):
+        return self.repo.read("configs/scoring_weights.json")
+
+    def color_rules(self):
+        return self.repo.read("configs/color_rules.json")

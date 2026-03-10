@@ -1,4 +1,11 @@
 {
+  "defaults": {
+    "base": 1.0,
+    "synergyMultiplier": 1.0,
+    "counterMultiplier": 1.0,
+    "strongIntoMultiplier": 1.0,
+    "teamColorBonus": 0.0
+  },
   "blue": {
     "description": "Controle + Poke + Disengage",
     "modifiers": {

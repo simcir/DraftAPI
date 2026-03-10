@@ -5,6 +5,10 @@
     "synergy": 1.2,
     "counters": 1.3,
     "strongInto": 1.1,
-    "colorFit": 0.8
+    "colorFit": 0.8,
+    "roleCounterMultiplier": 2.0,
+    "roleDualMultiplier": 1.5,
+    "adcFlexMultiplier": 1.3,
+    "counterPenaltyMultiplier": 0.7
   }
 }
