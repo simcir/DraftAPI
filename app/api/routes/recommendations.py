@@ -1,4 +1,4 @@
-from fastapi import APIRouter, Depends
+from fastapi import APIRouter, Depends, HTTPException
 
 from app.core.config import settings
 from app.services.storage.json_repository import JsonRepository
@@ -17,5 +17,10 @@ def get_loader():
 
 @router.post("/recommendations", response_model=DraftRecommendationResponse)
 def recommend(payload: DraftRecommendationRequest, loader: DataLoader = Depends(get_loader)):
-    recommendations = build_recommendations(payload, loader)
+    try:
+        recommendations = build_recommendations(payload, loader)
+    except FileNotFoundError as exc:
+        raise HTTPException(status_code=404, detail=f"Role profile not found: {exc.filename}")
+    except ValueError as exc:
+        raise HTTPException(status_code=400, detail=str(exc))
     return DraftRecommendationResponse(recommendations=recommendations)

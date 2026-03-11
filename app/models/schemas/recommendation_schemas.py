@@ -37,6 +37,7 @@ class DraftRecommendationRequest(BaseModel):
 class RecommendationItem(BaseModel):
     championId: int
     score: float
+    roles: list[str] = []
     reasons: list[str] = []
 
 
